@@ -14,7 +14,17 @@ set scrolloff=8
 set colorcolumn=80
 set signcolumn=yes
 
-" install vim-plug if not found
+" Disable arrow keys
+noremap <up> :echerr "No arrows, bro"<CR>
+noremap <down> :echerr "No arrows, bro"<CR>
+noremap <left> :echerr "No arrows, bro"<CR>
+noremap <right> :echerr "No arrows, bro"<CR>
+inoremap <up> <NOP>
+inoremap <down> <NOP>
+inoremap <left> <NOP>
+inoremap <right> <NOP>
+
+" Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
