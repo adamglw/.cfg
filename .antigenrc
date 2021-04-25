@@ -1,0 +1,14 @@
+# Syntax highlighting bundle
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Fish-like auto suggestions
+antigen bundle zsh-users/zsh-autosuggestions
+
+# Extra zsh completions
+antigen bundle zsh-users/zsh-completions
+
+# Powerlevel10k theme
+antigen theme romkatv/powerlevel10k
+
+# Tell Antigen you're done
+antigen apply
