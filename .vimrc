@@ -14,6 +14,11 @@ set scrolloff=8
 set colorcolumn=80
 set signcolumn=yes
 
+" Enable true colours and set t_8f and t_8b options explicitly
+set termguicolors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+
 " Disable arrow keys
 noremap <up> :echerr "No arrows, bro"<CR>
 noremap <down> :echerr "No arrows, bro"<CR>
@@ -40,12 +45,18 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin('~/.vim/plugged')
 
 Plug 'gruvbox-community/gruvbox'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 " Initialize plugin system
 call plug#end()
 
-colorscheme gruvbox
-set bg=dark
+" Set theme
+let g:material_theme_style = 'palenight'
+colorscheme material
+"colorscheme gruvbox
+"set bg=dark
+
+" Transparent background
 highlight Normal     ctermbg=NONE guibg=NONE
 highlight LineNr     ctermbg=NONE guibg=NONE
 highlight SignColumn ctermbg=NONE guibg=NONE
