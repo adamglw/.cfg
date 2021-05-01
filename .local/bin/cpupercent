@@ -1,2 +1,2 @@
 #!/bin/sh
-top -b -n1 | grep "Cpu(s)" | awk '{printf ("%2.0f% \n", ($2 + $4))}'
+top -b -n1 | grep "Cpu(s)" | awk '{printf ("%2.0f% \n", ($2 + $4))}'

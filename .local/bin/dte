@@ -1,5 +1,5 @@
 #!/bin/sh
-dte=$(date '+%d/%m/%y')
+dte=$(date '+%d/%m')
 clk=$(date '+%H:%M')
 dteicon=''
 clkicon=''

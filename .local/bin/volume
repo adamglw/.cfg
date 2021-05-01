@@ -4,12 +4,14 @@
 
 vol="$(pamixer --get-volume)"
 
-if [ "$vol" -gt "70" ]; then
-  icon="墳"
-elif [ "$vol" -lt "30" ]; then
-  icon="奄"
-else
-  icon="奔"
-fi
+icon="墳"
+
+#if [ "$vol" -gt "70" ]; then
+#  icon="墳"
+#elif [ "$vol" -lt "30" ]; then
+#  icon="奄"
+#else
+#  icon="奔"
+#fi
 
 printf "%s %s \n" "$icon" "$vol%"
