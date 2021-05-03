@@ -14,4 +14,4 @@ icon="墳"
 #  icon="奔"
 #fi
 
-printf "%s %s \n" "$icon" "$vol%"
+printf "%s %s\n" "$icon" "$vol%"

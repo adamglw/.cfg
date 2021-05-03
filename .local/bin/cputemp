@@ -1,4 +1,4 @@
 #!/bin/sh
 temp=$(sensors | grep -oP 'Package.*?\+\K[0-9.]+'°C)
 icon=''
-printf "%s%s \n" "$icon" "$temp"
+printf "%s%s\n" "$icon" "$temp"

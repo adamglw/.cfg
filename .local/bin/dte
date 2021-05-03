@@ -3,4 +3,4 @@ dte=$(date '+%d/%m')
 clk=$(date '+%H:%M')
 dteicon=''
 clkicon=''
-printf "%s %s %s %s \n" "$dteicon" "$dte" "$clkicon" "$clk"
+printf "%s %s %s %s\n" "$dteicon" "$dte" "$clkicon" "$clk"
