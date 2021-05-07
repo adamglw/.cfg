@@ -1,6 +1,6 @@
 #!/bin/sh
-dte=$(date '+%d/%m/%y')
+dte=$(date '+%d/%m/%y (%a)')
 clk=$(date '+%H:%M')
-dteicon=''
-clkicon=''
+dteicon=' '
+clkicon=''
 printf "%s%s  %s%s \n" "$dteicon" "$dte" "$clkicon" "$clk"
