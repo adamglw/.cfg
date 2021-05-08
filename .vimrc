@@ -44,15 +44,18 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'gruvbox-community/gruvbox'
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+"Plug 'gruvbox-community/gruvbox'
+"Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'pradyungn/Mountain', { 'rtp': 'vim' }
 
 " Initialize plugin system
 call plug#end()
 
 " Set theme
-let g:material_theme_style = 'palenight'
-colorscheme material
+colorscheme mountain
+"let g:enable_mountain_statusline=1
+"let g:material_theme_style = 'palenight'
+"colorscheme material
 "colorscheme gruvbox
 "set bg=dark
 
