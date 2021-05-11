@@ -1,6 +1,3 @@
 #!/bin/sh
-dte=$(date '+%d/%m/%y (%a)')
-clk=$(date '+%H:%M')
-dteicon=' '
-clkicon=''
-printf "%s%s  %s%s \n" "$dteicon" "$dte" "$clkicon" "$clk"
+dte=$(date '+%d/%m/%y (%a)  %H:%M')
+printf "%s \n" "$dte"
