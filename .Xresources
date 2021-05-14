@@ -26,3 +26,10 @@ st.color15:     #b9b9b9
 st.background:  #262626
 st.foreground:  #9e9e9e
 st.cursorColor: #9e9e9e
+
+! slock
+slock.color0: #000000
+slock.color1: #b78380
+slock.color3: #b6bd80
+slock.color4: #7694b4
+
