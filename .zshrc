@@ -35,3 +35,5 @@ antigen init $HOME/.antigenrc
 # Aliases
 # git
 alias dot="/usr/bin/git --git-dir=$HOME/.dotbare/ --work-tree=$HOME"
+# docker
+alias docker="doas docker"
