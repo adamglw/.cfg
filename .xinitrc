@@ -33,7 +33,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # load firejail apparmor profile into kernel
-sudo apparmor_parser -r /etc/apparmor.d/firejail-default
+# This seems to cause an X error with the latest version of zoom - needs investigating
+# sudo apparmor_parser -r /etc/apparmor.d/firejail-default
 
 # prepare X session
 xrandr --output HDMI1 --mode 1600x1200 --output HDMI3 --mode 1600x1200 --right-of HDMI1 &
