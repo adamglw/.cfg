@@ -7,15 +7,27 @@ dwm.selbgcolor:      #303030
 dwm.selfgcolor:      #b9b9b9
 
 ! dmenu
+! dmenu.normfgcolor:   #9e9e9e
+! dmenu.normbgcolor:   #262626
+! dmenu.selfgcolor:    #b9b9b9
+! dmenu.selbgcolor:    #303030
+! dmenu.outfgcolor:    #ce8c84
+! dmenu.outbgcolor:    #303030
+! dmenu.normhlfgcolor: #b78380
+! dmenu.normhlbgcolor: #262626
+! dmenu.selhlfgcolor:  #85b785
+! dmenu.selhlbgcolor:  #303030
+
+! dmenu
 dmenu.normfgcolor:   #9e9e9e
 dmenu.normbgcolor:   #262626
 dmenu.selfgcolor:    #b9b9b9
 dmenu.selbgcolor:    #303030
-dmenu.outfgcolor:    #ce8c84
+dmenu.outfgcolor:    #b9b9b9
 dmenu.outbgcolor:    #303030
-dmenu.normhlfgcolor: #b78380
+dmenu.normhlfgcolor: #b9b9b9
 dmenu.normhlbgcolor: #262626
-dmenu.selhlfgcolor:  #85b785
+dmenu.selhlfgcolor:  #b9b9b9
 dmenu.selhlbgcolor:  #303030
 
 ! st

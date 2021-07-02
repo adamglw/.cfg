@@ -30,7 +30,7 @@ inoremap <left> <NOP>
 inoremap <right> <NOP>
 
 " Install vim-plug if not found
-if empty(glob('~/.vim/autoload/plug.vim'))
+if empty(glob('~.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
@@ -46,13 +46,15 @@ call plug#begin('~/.vim/plugged')
 
 "Plug 'gruvbox-community/gruvbox'
 "Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-Plug 'pradyungn/Mountain', { 'rtp': 'vim' }
+"Plug 'pradyungn/Mountain', { 'rtp': 'vim' }
+Plug '~/.vim/colors/zenburn.vim'
 
 " Initialize plugin system
 call plug#end()
 
 " Set theme
-colorscheme mountain
+colorscheme zenburn
+"colorscheme mountain
 "let g:enable_mountain_statusline=1
 "let g:material_theme_style = 'palenight'
 "colorscheme material
