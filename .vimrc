@@ -30,7 +30,7 @@ inoremap <left> <NOP>
 inoremap <right> <NOP>
 
 " Install vim-plug if not found
-if empty(glob('~.vim/autoload/plug.vim'))
+if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
@@ -44,22 +44,14 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-"Plug 'gruvbox-community/gruvbox'
-"Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-"Plug 'pradyungn/Mountain', { 'rtp': 'vim' }
-Plug '~/.vim/colors/zenburn.vim'
+" Plugins
+Plug 'jnurmine/Zenburn'
 
 " Initialize plugin system
 call plug#end()
 
-" Set theme
-colorscheme zenburn
-"colorscheme mountain
-"let g:enable_mountain_statusline=1
-"let g:material_theme_style = 'palenight'
-"colorscheme material
-"colorscheme gruvbox
-"set bg=dark
+" Set colour theme
+colors zenburn
 
 " Transparent background
 highlight Normal     ctermbg=NONE guibg=NONE
