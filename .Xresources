@@ -19,16 +19,16 @@ dwm.selfgcolor:      #b9b9b9
 ! dmenu.selhlbgcolor:  #303030
 
 ! dmenu
-dmenu.normfgcolor:   #9e9e9e
+dmenu.normfgcolor:   #777777
 dmenu.normbgcolor:   #262626
 dmenu.selfgcolor:    #b9b9b9
-dmenu.selbgcolor:    #303030
+dmenu.selbgcolor:    #5e5e5e
 dmenu.outfgcolor:    #b9b9b9
-dmenu.outbgcolor:    #303030
+dmenu.outbgcolor:    #5e5e5e
 dmenu.normhlfgcolor: #b9b9b9
 dmenu.normhlbgcolor: #262626
 dmenu.selhlfgcolor:  #b9b9b9
-dmenu.selhlbgcolor:  #303030
+dmenu.selhlbgcolor:  #5e5e5e
 
 ! st
 st.color0:      #262626
