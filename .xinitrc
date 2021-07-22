@@ -42,5 +42,6 @@ xrandr --output HDMI1 --mode 1600x1200 --output HDMI3 --mode 1920x1200 --right-o
 xinput --set-button-map "Kensington Expert Mouse" 3 8 1 4 5 6 7 2 9 &
 picom --experimental-backends --config ~/.config/picom/picom.conf &
 dwmblocks &
+dunst &
 nitrogen --restore &
 exec dwm

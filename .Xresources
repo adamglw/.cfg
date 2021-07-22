@@ -22,13 +22,13 @@ dwm.selfgcolor:      #b9b9b9
 dmenu.normfgcolor:   #777777
 dmenu.normbgcolor:   #262626
 dmenu.selfgcolor:    #b9b9b9
-dmenu.selbgcolor:    #5e5e5e
+dmenu.selbgcolor:    #474747
 dmenu.outfgcolor:    #b9b9b9
-dmenu.outbgcolor:    #5e5e5e
+dmenu.outbgcolor:    #474747
 dmenu.normhlfgcolor: #b9b9b9
 dmenu.normhlbgcolor: #262626
 dmenu.selhlfgcolor:  #b9b9b9
-dmenu.selhlbgcolor:  #5e5e5e
+dmenu.selhlbgcolor:  #474747
 
 ! st
 st.color0:      #262626
