@@ -3,7 +3,7 @@ dwm.normbordercolor: #262626
 dwm.normbgcolor:     #262626
 dwm.normfgcolor:     #777777
 dwm.selbordercolor:  #b9b9b9
-dwm.selbgcolor:      #777777
+dwm.selbgcolor:      #5e5e5e
 dwm.selfgcolor:      #1b1b1b
 
 ! dmenu
