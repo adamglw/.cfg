@@ -3,8 +3,8 @@ dwm.normbordercolor: #262626
 dwm.normbgcolor:     #262626
 dwm.normfgcolor:     #777777
 dwm.selbordercolor:  #b9b9b9
-dwm.selbgcolor:      #5e5e5e
-dwm.selfgcolor:      #1b1b1b
+dwm.selbgcolor:      #474747
+dwm.selfgcolor:      #b9b9b9
 
 ! dmenu
 ! dmenu.normfgcolor:   #9e9e9e
