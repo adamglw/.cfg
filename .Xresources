@@ -1,10 +1,10 @@
 ! dwm
 dwm.normbordercolor: #262626
 dwm.normbgcolor:     #262626
-dwm.normfgcolor:     #777777
-dwm.selbordercolor:  #b9b9b9
-dwm.selbgcolor:      #474747
-dwm.selfgcolor:      #b9b9b9
+dwm.normfgcolor:     #9e9e9e
+dwm.selbordercolor:  #b29a71
+dwm.selbgcolor:      #b29a71
+dwm.selfgcolor:      #262626
 
 ! dmenu
 ! dmenu.normfgcolor:   #9e9e9e
@@ -21,14 +21,14 @@ dwm.selfgcolor:      #b9b9b9
 ! dmenu
 dmenu.normfgcolor:   #777777
 dmenu.normbgcolor:   #262626
-dmenu.selfgcolor:    #b9b9b9
-dmenu.selbgcolor:    #474747
-dmenu.outfgcolor:    #b9b9b9
-dmenu.outbgcolor:    #474747
-dmenu.normhlfgcolor: #b9b9b9
+dmenu.selfgcolor:    #b29a71
+dmenu.selbgcolor:    #303030
+dmenu.outfgcolor:    #b29a71
+dmenu.outbgcolor:    #303030
+dmenu.normhlfgcolor: #b29a71
 dmenu.normhlbgcolor: #262626
-dmenu.selhlfgcolor:  #b9b9b9
-dmenu.selhlbgcolor:  #474747
+dmenu.selhlfgcolor:  #b29a71
+dmenu.selhlbgcolor:  #303030
 
 ! st
 st.color0:      #262626
