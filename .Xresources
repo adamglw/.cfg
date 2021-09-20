@@ -21,14 +21,14 @@ dwm.selfgcolor:      #262626
 ! dmenu
 dmenu.normfgcolor:   #777777
 dmenu.normbgcolor:   #262626
-dmenu.selfgcolor:    #b29a71
-dmenu.selbgcolor:    #303030
-dmenu.outfgcolor:    #b29a71
-dmenu.outbgcolor:    #303030
+dmenu.selfgcolor:    #262626
+dmenu.selbgcolor:    #b29a71
+dmenu.outfgcolor:    #262626
+dmenu.outbgcolor:    #b29a71
 dmenu.normhlfgcolor: #b29a71
 dmenu.normhlbgcolor: #262626
-dmenu.selhlfgcolor:  #b29a71
-dmenu.selhlbgcolor:  #303030
+dmenu.selhlfgcolor:  #262626
+dmenu.selhlbgcolor:  #b29a71
 
 ! st
 st.color0:      #262626
