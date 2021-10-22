@@ -385,7 +385,9 @@
     # Custom VCS icons
     case $VCS_STATUS_REMOTE_URL in
         *github.com*)       res+=$'\uF408 ';;
-        *)                  res+=$'\uF1D3 ';;
+        *bitbucket.com*)    res+=$'\uF171 ';;
+    #    *)                  res+=$'\uF1D3 ';;
+        *)                  res+=$'\uF1D2 ';;
     esac
 
     if [[ -n $VCS_STATUS_LOCAL_BRANCH ]]; then
