@@ -15,7 +15,7 @@ dwm.selfgcolor:      #262626
 ! dmenu.outbgcolor:    #303030
 ! dmenu.normhlfgcolor: #b78380
 ! dmenu.normhlbgcolor: #262626
-! dmenu.selhlfgcolor:  #85b785
+! dmenu.selhlfgcolor:  #78a578
 ! dmenu.selhlbgcolor:  #303030
 
 ! dmenu
@@ -33,19 +33,19 @@ dmenu.selhlbgcolor:  #b29a71
 ! st
 st.color0:      #262626
 st.color1:      #b78380
-st.color2:      #85b785
-st.color3:      #b6bd80
+st.color2:      #78a578
+st.color3:      #a4aa73
 st.color4:      #7694b4
-st.color5:      #897cb8
-st.color6:      #83b4bd
+st.color5:      #9589bf
+st.color6:      #76a2aa
 st.color7:      #9e9e9e
 st.color8:      #5e5e5e
 st.color9:      #ce8c84
-st.color10:     #92c592
-st.color11:     #c4cb8d
+st.color10:     #79b979
+st.color11:     #b0b77f
 st.color12:     #83a1c1
-st.color13:     #9789c6
-st.color14:     #91c1ca
+st.color13:     #a195cc
+st.color14:     #83aeb6
 st.color15:     #b9b9b9
 st.background:  #262626
 st.foreground:  #9e9e9e
@@ -54,6 +54,6 @@ st.cursorColor: #9e9e9e
 ! slock
 slock.color0: #000000
 slock.color1: #b78380
-slock.color3: #b6bd80
+slock.color3: #a4aa73
 slock.color4: #7694b4
 
