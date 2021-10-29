@@ -1,55 +1,45 @@
+! manaslu
+
 ! dwm
-dwm.normbordercolor: #262626
-dwm.normbgcolor:     #262626
-dwm.normfgcolor:     #9e9e9e
-dwm.selbordercolor:  #b29a71
-dwm.selbgcolor:      #b29a71
-dwm.selfgcolor:      #262626
+! dwm.normbordercolor: #262626
+! dwm.normbgcolor:     #262626
+! dwm.normfgcolor:     #9e9e9e
+! dwm.selbordercolor:  #a08b66
+! dwm.selbgcolor:      #a08b66
+! dwm.selfgcolor:      #262626
 
 ! dmenu
-! dmenu.normfgcolor:   #9e9e9e
+! dmenu.normfgcolor:   #777777
 ! dmenu.normbgcolor:   #262626
-! dmenu.selfgcolor:    #b9b9b9
-! dmenu.selbgcolor:    #303030
-! dmenu.outfgcolor:    #ce8c84
-! dmenu.outbgcolor:    #303030
-! dmenu.normhlfgcolor: #b78380
+! dmenu.selfgcolor:    #262626
+! dmenu.selbgcolor:    #a08b66
+! dmenu.outfgcolor:    #262626
+! dmenu.outbgcolor:    #a08b66
+! dmenu.normhlfgcolor: #b29a71
 ! dmenu.normhlbgcolor: #262626
-! dmenu.selhlfgcolor:  #78a578
-! dmenu.selhlbgcolor:  #303030
-
-! dmenu
-dmenu.normfgcolor:   #777777
-dmenu.normbgcolor:   #262626
-dmenu.selfgcolor:    #262626
-dmenu.selbgcolor:    #b29a71
-dmenu.outfgcolor:    #262626
-dmenu.outbgcolor:    #b29a71
-dmenu.normhlfgcolor: #b29a71
-dmenu.normhlbgcolor: #262626
-dmenu.selhlfgcolor:  #262626
-dmenu.selhlbgcolor:  #b29a71
+! dmenu.selhlfgcolor:  #262626
+! dmenu.selhlbgcolor:  #a08b66
 
 ! st
-st.color0:      #262626
-st.color1:      #b78380
-st.color2:      #78a578
-st.color3:      #a4aa73
-st.color4:      #7694b4
-st.color5:      #9589bf
-st.color6:      #76a2aa
-st.color7:      #9e9e9e
-st.color8:      #5e5e5e
-st.color9:      #ce8c84
-st.color10:     #79b979
-st.color11:     #b0b77f
-st.color12:     #83a1c1
-st.color13:     #a195cc
-st.color14:     #83aeb6
-st.color15:     #b9b9b9
-st.background:  #262626
-st.foreground:  #9e9e9e
-st.cursorColor: #9e9e9e
+! st.color0:      #262626
+! st.color1:      #b78380
+! st.color2:      #78a578
+! st.color3:      #a4aa73
+! st.color4:      #7694b4
+! st.color5:      #9589bf
+! st.color6:      #76a2aa
+! st.color7:      #9e9e9e
+! st.color8:      #5e5e5e
+! st.color9:      #ce8c84
+! st.color10:     #79b979
+! st.color11:     #b0b77f
+! st.color12:     #83a1c1
+! st.color13:     #a195cc
+! st.color14:     #83aeb6
+! st.color15:     #b9b9b9
+! st.background:  #262626
+! st.foreground:  #9e9e9e
+! st.cursorColor: #9e9e9e
 
 ! slock
 slock.color0: #000000
@@ -57,3 +47,45 @@ slock.color1: #b78380
 slock.color3: #a4aa73
 slock.color4: #7694b4
 
+! basically zenburn
+
+! dwm
+dwm.normbordercolor: #3f3f3f
+dwm.normbgcolor:     #3f3f3f
+dwm.normfgcolor:     #b0b0a3
+dwm.selbordercolor:  #ccac86
+dwm.selbgcolor:      #ccac86
+dwm.selfgcolor:      #3f3f3f
+
+! dmenu
+dmenu.normfgcolor:   #b0b0a3
+dmenu.normbgcolor:   #3f3f3f
+dmenu.selfgcolor:    #3f3f3f
+dmenu.selbgcolor:    #ccac86
+dmenu.outfgcolor:    #3f3f3f
+dmenu.outbgcolor:    #ccac86
+dmenu.normhlfgcolor: #ccac86
+dmenu.normhlbgcolor: #3f3f3f
+dmenu.selhlfgcolor:  #3f3f3f
+dmenu.selhlbgcolor:  #ccac86 
+
+! st
+st.color0:      #2d2d2d
+st.color1:      #cc9495
+st.color2:      #87ae86
+st.color3:      #e0cf9f
+st.color4:      #93b0cc
+st.color5:      #b1a5bc
+st.color6:      #93cccc
+st.color7:      #dcdccc
+st.color8:      #8d8d82
+st.color9:      #d19fa0
+st.color10:     #93b692
+st.color11:     #e3d4a9
+st.color12:     #9eb8d1
+st.color13:     #b9aec3
+st.color14:     #9ed1d1
+st.color15:     #dfe4cf
+st.background:  #3f3f3f
+st.foreground:  #dcdccc
+st.cursorColor: #dfe4cf
