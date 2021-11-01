@@ -36,12 +36,16 @@ fi
 # This seems to cause an X error with the latest version of zoom - needs investigating
 # sudo apparmor_parser -r /etc/apparmor.d/firejail-default
 
+# Note in /etc/X11/xorg.conf/11-monitor.conf goes the following:
+#   Section "Monitor"
+#       Identifier "HDMI1"
+#       Option "PreferredMode" "3440x1440"
+#   EndSection
+
 # prepare X session
-xrandr --output HDMI1 --mode 3440x1440
 xinput --set-button-map "Kensington Expert Mouse" 3 8 1 4 5 6 7 2 9 &
 picom --experimental-backends --config ~/.config/picom/picom.conf &
 dwmblocks &
 dunst &
 nitrogen --restore &
-pavucontrol &
 exec dwm
