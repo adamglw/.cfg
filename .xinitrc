@@ -37,11 +37,11 @@ fi
 # sudo apparmor_parser -r /etc/apparmor.d/firejail-default
 
 # prepare X session
-#xrandr --output HDMI1 --mode 1600x1200 --output HDMI3 --mode 1600x1200 --right-of HDMI1 &
-xrandr --output HDMI1 --mode 1600x1200 --output HDMI3 --mode 1920x1200 --right-of HDMI1 &
+xrandr --output HDMI1 --mode 3440x1440
 xinput --set-button-map "Kensington Expert Mouse" 3 8 1 4 5 6 7 2 9 &
 picom --experimental-backends --config ~/.config/picom/picom.conf &
 dwmblocks &
 dunst &
 nitrogen --restore &
+pavucontrol &
 exec dwm
