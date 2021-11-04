@@ -33,5 +33,6 @@ antigen init $HOME/.antigenrc
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Aliases
-# git
+alias ls="ls --color"
+# gitbare for dotfiles
 alias dot="/usr/bin/git --git-dir=$HOME/.dotbare/ --work-tree=$HOME"
