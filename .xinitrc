@@ -43,6 +43,7 @@ fi
 #   EndSection
 
 # prepare X session
+emacs --daemon &
 xinput --set-button-map "Kensington Expert Mouse" 3 8 1 4 5 6 7 2 9 &
 picom --experimental-backends --config ~/.config/picom/picom.conf &
 dwmblocks &
