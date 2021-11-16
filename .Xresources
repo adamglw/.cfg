@@ -70,22 +70,46 @@ dmenu.selhlfgcolor:  #3f3f3f
 dmenu.selhlbgcolor:  #ccac86 
 
 ! st
-st.color0:      #2d2d2d
-st.color1:      #cc9495
-st.color2:      #87ae86
-st.color3:      #e0cf9f
-st.color4:      #93b0cc
-st.color5:      #b1a5bc
-st.color6:      #93cccc
-st.color7:      #dcdccc
-st.color8:      #8d8d82
-st.color9:      #d19fa0
-st.color10:     #93b692
-st.color11:     #e3d4a9
-st.color12:     #9eb8d1
-st.color13:     #b9aec3
-st.color14:     #9ed1d1
-st.color15:     #dfe4cf
-st.background:  #3f3f3f
-st.foreground:  #dcdccc
-st.cursorColor: #dfe4cf
+!st.color0:      #2d2d2d
+!st.color1:      #cc9495
+!st.color2:      #87ae86
+!st.color3:      #e0cf9f
+!st.color4:      #93b0cc
+!st.color5:      #b1a5bc
+!st.color6:      #93cccc
+!st.color7:      #dcdccc
+!st.color8:      #8d8d82
+!st.color9:      #d19fa0
+!st.color10:     #93b692
+!st.color11:     #e3d4a9
+!st.color12:     #9eb8d1
+!st.color13:     #b9aec3
+!st.color14:     #9ed1d1
+!st.color15:     #dfe4cf
+!st.background:  #3f3f3f
+!st.foreground:  #dcdccc
+!st.cursorColor: #dfe4cf
+
+! seems faded
+
+! st
+st.color0:      #080808
+st.color1:      #e2b8b8
+st.color2:      #cde2b8
+st.color3:      #e2e2b8
+st.color4:      #b8cde2
+st.color5:      #cdb8e2
+st.color6:      #b8e2e2
+st.color7:      #dadada
+st.color8:      #8a8a8a
+st.color9:      #e2b8b8
+st.color10:     #cde2b8
+st.color11:     #e2e2b8
+st.color12:     #b8cde2
+st.color13:     #cdb8e2
+st.color14:     #b8e2e2
+st.color15:     #dadada
+st.background:  #080808
+st.foreground:  #dadada
+st.cursorColor: #dadada
+
