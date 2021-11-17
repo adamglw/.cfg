@@ -50,66 +50,86 @@ slock.color4: #7694b4
 ! basically zenburn
 
 ! dwm
-dwm.normbordercolor: #3f3f3f
-dwm.normbgcolor:     #3f3f3f
-dwm.normfgcolor:     #b0b0a3
-dwm.selbordercolor:  #ccac86
-dwm.selbgcolor:      #ccac86
-dwm.selfgcolor:      #3f3f3f
+! dwm.normbordercolor: #3f3f3f
+! dwm.normbgcolor:     #3f3f3f
+! dwm.normfgcolor:     #b0b0a3
+! dwm.selbordercolor:  #ccac86
+! dwm.selbgcolor:      #ccac86
+! dwm.selfgcolor:      #3f3f3f
 
 ! dmenu
-dmenu.normfgcolor:   #b0b0a3
-dmenu.normbgcolor:   #3f3f3f
-dmenu.selfgcolor:    #3f3f3f
-dmenu.selbgcolor:    #ccac86
-dmenu.outfgcolor:    #3f3f3f
-dmenu.outbgcolor:    #ccac86
-dmenu.normhlfgcolor: #ccac86
-dmenu.normhlbgcolor: #3f3f3f
-dmenu.selhlfgcolor:  #3f3f3f
-dmenu.selhlbgcolor:  #ccac86 
+! dmenu.normfgcolor:   #b0b0a3
+! dmenu.normbgcolor:   #3f3f3f
+! dmenu.selfgcolor:    #3f3f3f
+! dmenu.selbgcolor:    #ccac86
+! dmenu.outfgcolor:    #3f3f3f
+! dmenu.outbgcolor:    #ccac86
+! dmenu.normhlfgcolor: #ccac86
+! dmenu.normhlbgcolor: #3f3f3f
+! dmenu.selhlfgcolor:  #3f3f3f
+! dmenu.selhlbgcolor:  #ccac86 
 
 ! st
-!st.color0:      #2d2d2d
-!st.color1:      #cc9495
-!st.color2:      #87ae86
-!st.color3:      #e0cf9f
-!st.color4:      #93b0cc
-!st.color5:      #b1a5bc
-!st.color6:      #93cccc
-!st.color7:      #dcdccc
-!st.color8:      #8d8d82
-!st.color9:      #d19fa0
-!st.color10:     #93b692
-!st.color11:     #e3d4a9
-!st.color12:     #9eb8d1
-!st.color13:     #b9aec3
-!st.color14:     #9ed1d1
-!st.color15:     #dfe4cf
-!st.background:  #3f3f3f
-!st.foreground:  #dcdccc
-!st.cursorColor: #dfe4cf
+! st.color0:      #2d2d2d
+! st.color1:      #cc9495
+! st.color2:      #87ae86
+! st.color3:      #e0cf9f
+! st.color4:      #93b0cc
+! st.color5:      #b1a5bc
+! st.color6:      #93cccc
+! st.color7:      #dcdccc
+! st.color8:      #8d8d82
+! st.color9:      #d19fa0
+! st.color10:     #93b692
+! st.color11:     #e3d4a9
+! st.color12:     #9eb8d1
+! st.color13:     #b9aec3
+! st.color14:     #9ed1d1
+! st.color15:     #dfe4cf
+! st.background:  #3f3f3f
+! st.foreground:  #dcdccc
+! st.cursorColor: #dfe4cf
 
 ! seems faded
 
+! dwm
+dwm.normbordercolor: #080808
+dwm.normbgcolor:     #080808
+dwm.normfgcolor:     #808080
+dwm.selbordercolor:  #d0d0d0
+dwm.selbgcolor:      #1c1c1c
+dwm.selfgcolor:      #d0d0d0
+
+! dmenu
+dmenu.normfgcolor:   #808080
+dmenu.normbgcolor:   #080808
+dmenu.selfgcolor:    #d0d0d0
+dmenu.selbgcolor:    #1c1c1c
+dmenu.outfgcolor:    #080808
+dmenu.outbgcolor:    #1c1c1c
+dmenu.normhlfgcolor: #d0d0d0
+dmenu.normhlbgcolor: #080808
+dmenu.selhlfgcolor:  #d0d0d0
+dmenu.selhlbgcolor:  #1c1c1c 
+
 ! st
-st.color0:      #080808
-st.color1:      #e2b8b8
-st.color2:      #cde2b8
-st.color3:      #e2e2b8
-st.color4:      #b8cde2
-st.color5:      #cdb8e2
-st.color6:      #b8e2e2
-st.color7:      #dadada
-st.color8:      #8a8a8a
+st.color0:      #262626
+st.color1:      #dba6a6
+st.color2:      #c0dba6
+st.color3:      #dbdba6
+st.color4:      #a6c0db
+st.color5:      #c0a6db
+st.color6:      #a6dbdb
+st.color7:      #d0d0d0
+st.color8:      #808080
 st.color9:      #e2b8b8
 st.color10:     #cde2b8
 st.color11:     #e2e2b8
 st.color12:     #b8cde2
 st.color13:     #cdb8e2
 st.color14:     #b8e2e2
-st.color15:     #dadada
+st.color15:     #e4e4e4
 st.background:  #080808
-st.foreground:  #dadada
-st.cursorColor: #dadada
+st.foreground:  #d0d0d0
+st.cursorColor: #808080
 
