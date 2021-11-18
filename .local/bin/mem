@@ -1,2 +1,2 @@
 #!/bin/sh
-free --mebi | sed -n '2{p;q}' | awk '{printf (" %2.1fG\n", (($3+$5)/1024))}'
+free --mebi | sed -n '2{p;q}' | awk '{printf ("%2.1fG\n", (($3+$5)/1024))}'
