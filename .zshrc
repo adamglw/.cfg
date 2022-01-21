@@ -22,6 +22,7 @@ autoload -Uz compinit
 compinit
 
 # Add stuff to PATH
+#PATH=$PATH:$HOME/go/bin
 
 # Load Antigen
 source "$HOME/antigen.zsh"
