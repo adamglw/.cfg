@@ -115,7 +115,7 @@ dmenu.selhlbgcolor:  #1c1c1c
 ! st
 st.color0:      #262626
 st.color1:      #dba6a6
-st.color2:      #c0dba6
+st.color2:      #a6dba6
 st.color3:      #dbdba6
 st.color4:      #a6c0db
 st.color5:      #c0a6db
@@ -123,7 +123,7 @@ st.color6:      #a6dbdb
 st.color7:      #d0d0d0
 st.color8:      #808080
 st.color9:      #e2b8b8
-st.color10:     #cde2b8
+st.color10:     #b8e2b8
 st.color11:     #e2e2b8
 st.color12:     #b8cde2
 st.color13:     #cdb8e2
@@ -133,3 +133,25 @@ st.background:  #080808
 st.foreground:  #d0d0d0
 st.cursorColor: #808080
 
+! Modus Vivendi
+
+! st
+! st.color0:      #000000
+! st.color1:      #ff8059
+! st.color2:      #44bc44
+! st.color3:      #d0bc00
+! st.color4:      #2fafff
+! st.color5:      #feacd0
+! st.color6:      #00d3d0
+! st.color7:      #e0e6f0
+! st.color8:      #100f10
+! st.color9:      #ff8059
+! st.color10:     #44bc44
+! st.color11:     #d0bc00
+! st.color12:     #2fafff
+! st.color13:     #feacd0
+! st.color14:     #00d3d0
+! st.color15:     #ffffff
+! st.background:  #000000
+! st.foreground:  #ffffff
+! st.cursorColor: #ffffff
