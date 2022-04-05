@@ -113,25 +113,48 @@ dmenu.selhlfgcolor:  #d0d0d0
 dmenu.selhlbgcolor:  #1c1c1c 
 
 ! st
-st.color0:      #262626
-st.color1:      #dba6a6
-st.color2:      #a6dba6
-st.color3:      #dbdba6
-st.color4:      #a6c0db
-st.color5:      #c0a6db
-st.color6:      #a6dbdb
-st.color7:      #d0d0d0
+! st.color0:      #262626
+! st.color1:      #dba6a6
+! st.color2:      #a6dba6
+! st.color3:      #dbdba6
+! st.color4:      #a6c0db
+! st.color5:      #c0a6db
+! st.color6:      #a6dbdb
+! st.color7:      #d0d0d0
+! st.color8:      #808080
+! st.color9:      #e2b8b8
+! st.color10:     #b8e2b8
+! st.color11:     #e2e2b8
+! st.color12:     #b8cde2
+! st.color13:     #cdb8e2
+! st.color14:     #b8e2e2
+! st.color15:     #e4e4e4
+! st.background:  #080808
+! st.foreground:  #d0d0d0
+! st.cursorColor: #808080
+
+! Xterm
+! st
+st.color0:      #000000
+st.color1:      #800000
+st.color2:      #008000
+st.color3:      #808000
+st.color4:      #000080
+st.color5:      #800080
+st.color6:      #008080
+st.color7:      #c0c0c0
 st.color8:      #808080
-st.color9:      #e2b8b8
-st.color10:     #b8e2b8
-st.color11:     #e2e2b8
-st.color12:     #b8cde2
-st.color13:     #cdb8e2
-st.color14:     #b8e2e2
-st.color15:     #e4e4e4
+st.color9:      #ff0000
+st.color10:     #00ff00
+st.color11:     #ffff00
+st.color12:     #0000ff
+st.color13:     #ff00ff
+st.color14:     #00ffff
+st.color15:     #ffffff
 st.background:  #080808
-st.foreground:  #d0d0d0
+st.foreground:  #c0c0c0
 st.cursorColor: #808080
+
 
 ! Modus Vivendi
 
